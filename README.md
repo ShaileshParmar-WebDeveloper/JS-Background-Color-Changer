@@ -6,3 +6,8 @@
  # Working Link 
  
  https://shaileshparmar-webdeveloper.github.io/JS-Background-Color-Changer/
+ 
+ ## Technologies Used
++ HTML5
++ CSS3
++ Vanilla js
