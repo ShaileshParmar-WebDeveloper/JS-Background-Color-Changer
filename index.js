@@ -1,11 +1,15 @@
 const bgcolor = ["red", "green", "blue"];
-console.log("object");
 
-const button = document.getElementsByTagName("button");
+const button = document.getElementById("btn");
 
-const changeBgColor = () => {
-  let count = Math.floor(Math.random() * 3);
-  document.body.style.backgroundColor = bgcolor[count];
-  //   console.log(bgcolor[count]);
-  //   console.log(count);
-};
+const changeBgColor = () => {};
+
+button.addEventListener("click", () => {
+  let letter = "0123456789ABCDEF";
+  let color = "#";
+  for (let i = 0; i < 6; i++) {
+    color = color + letter[Math.floor(Math.random() * 16)];
+  }
+
+  document.body.style.backgroundColor = color;
+});
