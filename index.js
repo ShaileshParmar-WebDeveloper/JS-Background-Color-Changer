@@ -1,8 +1,4 @@
-const bgcolor = ["red", "green", "blue"];
-
 const button = document.getElementById("btn");
-
-const changeBgColor = () => {};
 
 button.addEventListener("click", () => {
   let letter = "0123456789ABCDEF";
